@@ -1,0 +1,34 @@
+{
+  "name": "project-efad-line",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines":{
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnoMay22591/project-efad-line.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnoMay22591/project-efad-line/issues"
+  },
+  "homepage": "https://github.com/AnoMay22591/project-efad-line#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^7.3.0",
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "faker": "^6.6.6",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2",
+    "serve": "^13.0.2"
+  }
+}
